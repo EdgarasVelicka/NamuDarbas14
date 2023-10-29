@@ -34,7 +34,7 @@ namespace Uzduotis30
         }
         static double Dalyba(int pirmSkaicius, int antrSkaicius)
         {
-            return (pirmSkaicius / antrSkaicius);
+            return (double)pirmSkaicius / antrSkaicius;
         }
     }
 }
